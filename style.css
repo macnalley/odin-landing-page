@@ -7,9 +7,10 @@ header {
   background-color: #1f2937;
   color: white;
   padding: 10px 100px;
-  display: flex;
+  display: flex;    
   justify-content: space-between;
   align-items: center;
+  margin: 0px;
 }
 
 .logo {
@@ -23,4 +24,22 @@ ul {
     margin: 0px;
     display: flex;
     gap: 30px;
+}
+
+.a {
+    background-color: #1f2937;
+    color: white;
+    margin: 0px;
+}
+
+.b {
+
+}
+
+.c {
+    background-color: #E5E7EB;
+}
+
+.d {
+
 }
