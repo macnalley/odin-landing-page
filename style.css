@@ -32,6 +32,12 @@ ul {
     margin: 0px;
     padding: 40px 200px;
     display: flex;
+    justify-content: center;
+}
+
+.intro-container {
+    width: 1000px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
@@ -67,6 +73,10 @@ button {
 .b {
     margin: 0px;
     padding: 40px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .b h2 {
@@ -80,7 +90,7 @@ button {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 10px;
 }
 
