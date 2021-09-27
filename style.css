@@ -1,12 +1,14 @@
 body {
     font-family: 'Lato', sans-serif;
     height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
   background-color: #1f2937;
   color: white;
-  padding: 10px 100px;
+  padding: 10px 200px;
   display: flex;    
   justify-content: space-between;
   align-items: center;
@@ -20,8 +22,6 @@ header {
 
 ul {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
     display: flex;
     gap: 30px;
 }
@@ -30,16 +30,133 @@ ul {
     background-color: #1f2937;
     color: white;
     margin: 0px;
+    padding: 40px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.intro {
+    width: 350px;
+}
+
+.placeholder {
+    background-color: #707070;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.intro button {
+    margin-top: 10px;
 }
 
 .b {
+    margin: 0px;
+    padding: 40px 200px;
+}
 
+.b h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 175px;
+}
+
+.img-box {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 5px;
 }
 
 .c {
     background-color: #E5E7EB;
+    margin: 0px;
+    padding: 60px 200px;
+    display: flex; 
+    justify-content: center;
+}
+
+.quote-container {
+    width: 700px;
+}
+
+blockquote {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container p {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
 }
 
 .d {
+    margin: 0px;
+    padding: 60px 140px;
+    display: flex;
+    justify-content: center;
+}
 
+.call {
+    background-color: #3882f6;
+    padding: 20px 60px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 700px;
+}
+
+.call h3, .call p {
+    color: white;
+}
+
+.call button {
+    border: 1px solid white;
+}
+
+h1, h2, h3, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
